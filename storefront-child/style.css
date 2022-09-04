@@ -1,0 +1,78 @@
+/*
+ Theme Name:   Storefront-Child
+ Theme URI:    https://ernestjuchheim.art/twenty-fifteen-child/
+ Description:  Storefront Child
+ Author:       Ernest Juchheim
+ Author URI:   https://ernestjuchheim.art
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
+*/
+
+.storefront-sorting {display:none}
+.woocommerce-products-header {display:none}
+
+
+h1 { margin-top:20px }
+
+#secondary {
+    display:none
+}
+
+.site-info a {
+    display:none
+}
+
+.storefront-breadcrumb {
+    display:none
+}
+
+.product {
+    margin-top:0px
+}
+
+.product_meta {
+    display:none
+}
+
+/* unvisited link */
+a:link {
+  font-weight: bolder;
+}
+
+/* visited link */
+a:visited {
+  font-weight: bolder;
+}
+
+/* mouse over link */
+a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  font-weight: bolder;
+}
+
+#primary {
+    width: 100%;
+}
+
+
+.home.blog .site-header, .home.page:not(.page-template-template-homepage) .site-header, .home.post-type-archive-product .site-header {
+    margin-bottom: 1em;
+}
+
+.page-item-8, .page-item-9 { display: none !important; }
+
+
+
+
+
+
+
